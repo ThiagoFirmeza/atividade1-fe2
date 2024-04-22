@@ -1,104 +1,72 @@
 html {
-    justify-content: left;
-    display: flex;
-    text-align: left;
-    min-height: 100vh;
-    font-size: 15px;
-    background-color: #acf2ff;
-    margin-left: 200px;
+  font-family: sans-serif;
 }
-
 
 body {
-    line-height: 1.6;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 20px;
-    color: #333;
-    background-color:#0084f5;
-    border-radius: 20px;
-    color: yellowgreen;
+  background-color: #092b5a;
 }
 
-#section01 {
-    padding: 10px;
-    background-color: #002ca6;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 20px;
-    
+#div01 {
+  padding: 40px;
+  background-color: #09738a;
+  border-radius: 40px;
+}
+
+h1 {
+  text-align: center;
+  padding: 40px;
+  background-color: #09738a;
+  border-radius: 20px 60px 20px 60px;
+  font-size: 30px;
+  color: white;
 }
 
 #section02 {
-    padding: 10px;
-    background-color: #002ca6;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 25px;
+  padding: 20px;
+  background-color: #0ca5b0;
+  margin-right: 1400px;
+  text-align: center;
+  border-radius: 60px 20px 60px 20px;
+  font-size: 20px;
+  
 }
 
 #section03 {
-    padding: 10px;
-    background-color: #0d4a72;
-    border-radius: 20px;
-    margin-top: 25px;
-    text-align: center;
-}
-
-#section04 {
-    padding: 10px;
-    background-color: #002ca6;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 25px;
+  padding: 20px;
+  background-color: #0ca5b0;
+  margin-left: 450px;
+  margin-right: 900px;
+  text-align: center;
+  margin-top: -144px;
+  border-radius: 20px 60px 20px 60px;
+  font-size: 20px;
 }
 
 #section05 {
-    padding: 10px;
-    background-color: #0d4a72;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 25px;
-    border-radius: 20px;
+  color: white;
+  padding: 40px;
+  align-items: right;
+  margin-right: 1500px;
+  text-align: left;
+  margin-left: -50px;
+  font-size: 17px;
 }
 
 #section06 {
-    padding: 10px;
-    background-color: #0d4a72;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 25px;
-    border-radius: 20px;
+  color: white;
+  margin-left: 450px;
+  margin-right: 900px;
+  margin-top: -290px;
+  font-size: 20px;
 }
 
-#section07{
-    padding: 10px;
-    background-color: #002ca6;
-    border-radius: 20px;
-    text-align: left;
-    font-size: 15px;
-    margin-top: 25px;
-    position: fixed;
-    top: 0;
-    right: 150px;
+#section07 {
+  padding: 40px;
+  font-size: 80px;
+  margin-left: 1100px;
+  margin-top: -400px;
+  height: 300px;
+  margin-right: 90px;
+  margin-bottom: 100px;
 }
 
-#section08 {
-    padding: 100px;
-    background-color: #0c658a;
-    border-radius: 20px;
-    text-align: center;
-    position: fixed;
-    right: 150px;
-    top: 0;
-    margin-top: 300px;
-    font-size: 20px;
-    margin-right: 45px;
-}
-
-input {
-    font-size: 20px;
-}

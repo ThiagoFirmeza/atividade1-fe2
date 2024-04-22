@@ -12,46 +12,48 @@
         <h1>Calculadora de IMC</h1>
     </section>
 
-    <section id="section02">
-        <h2>Insira seu peso em Kg</h2>
-    </section>
+    <div id="div01">
+        <section id="section02">
+            <h2>Insira seu peso em Kg</h2>
+            <div class="classPeso" id="divPeso">
+                <input type="number">
+            </div>
+        </section>
 
-    <section id="section03">
-        <div class="classPeso" id="divPeso">
-            <input type="number">
-        </div>
-    </section>
+        <section id="section03">
+            <h2>Insira sua altura em metros</h2>
+            <div class="classAltura" id="divAltura">
+                <input type="number">
+            </div>
+        </section>
 
-    <section id="section04">
-        <h2>Insira sua altura em metros</h2>
-    </section>
+        <section id="section04">
+            <div>
+                <button onclick="calcularIMC()">Calcular</button>
+            </div>
+        </section>
 
-    <section id="section05">
-        <div class="classAltura" id="divAltura">
-            <input type="number">
-        </div>
-    </section>
+        <section id="section05">
+            <ul>
+                <li>Abaixo do Peso: IMC abaixo de 18,5.</li>
+                <li>Peso Normal: IMC entre 18,5 e 24,9.</li>
+                <li>Sobrepeso: IMC entre 25 e 29,9.</li>
+                <li>Obesidade Grau I: IMC entre 30 e 34,9.</li>
+                <li>Obesidade Grau II: IMC entre 35 e 39,9.</li>
+                <li>Obesidade Grau III (Obesidade Mórbida): IMC 40 ou superior.</li>
+            </ul>
+        </section>
 
-    <section id="section06">
-        <div>
-            <button onclick="calcularIMC()">Calcular</button>
-        </div>
-    </section>
-
-    <section id="section07">
-        <ul>
-            <li>Abaixo do Peso: IMC abaixo de 18,5.</li>
-            <li>Peso Normal: IMC entre 18,5 e 24,9.</li>
-            <li>Sobrepeso: IMC entre 25 e 29,9.</li>
-            <li>Obesidade Grau I: IMC entre 30 e 34,9.</li>
-            <li>Obesidade Grau II: IMC entre 35 e 39,9.</li>
-            <li>Obesidade Grau III (Obesidade Mórbida): IMC 40 ou superior.</li>
-        </ul>
-    </section>
-
-    <section id="section08">
-        <h1></h1>
-        <div id="resultado"></div>
-    </section>
+        <section id="section06">
+            <p>
+                O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.
+            </p>
+        </section>
+        
+        <section id="section07">
+            <h2></h2>
+            <div id="resultado"></div>
+        </section>
+    </div>
 </body>
 </html>
